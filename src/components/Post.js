@@ -17,7 +17,7 @@ const Post = ({ post }) => {
         <h1>{post.name}</h1>
       </Link>
       <h2>{post.Song1}</h2>
-      <h2>{post.Song2}</h2>
+      <h2>{post.Song2}</h2> 
       <h2>{post.Song3}</h2>
       <h2>{post.Song4}</h2>
     </div>
