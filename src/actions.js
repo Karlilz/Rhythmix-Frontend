@@ -1,9 +1,9 @@
 import { redirect } from "react-router-dom";
 
 // YOUR DEPLOYED API BASE URL
-const URL = 'RENDER URL'
+const URL = 'https://rythmix-app.onrender.com'
 
-//createAction => 
+//createAction 
 export const createAction = async ({ request }) => {
   const formData = await request.formData();
 
@@ -28,7 +28,7 @@ export const createAction = async ({ request }) => {
   return redirect("/");
 };
 
-//updateAction => 
+//updateAction 
 export const updateAction = async ({ request, params }) => {
   // get form data
   const formData = await request.formData();
@@ -56,7 +56,7 @@ export const updateAction = async ({ request, params }) => {
   return redirect(`/post/${id}`);
 };
 
-//deleteAction => 
+//deleteAction 
 export const deleteAction = async ({ params }) => {
   const id = params.id;
 
