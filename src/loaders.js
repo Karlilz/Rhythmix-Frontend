@@ -1,5 +1,5 @@
 // YOUR DEPLOYED API BASE URL
-const URL = "https://xxxxxxx.onrender.com"
+const URL = 'https://rhythmix-app-backend.onrender.com'
 
 //indexLoader => get all todos for index route
 export const indexLoader = async () => {

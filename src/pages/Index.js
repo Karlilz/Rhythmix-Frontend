@@ -5,7 +5,7 @@ import { Form } from "react-router-dom";
 const Index = (props) => {
   const playlists = useLoaderData()
   return <>
-  <div style={{textAlign: "center"}}>
+  <div>
   <h2>Create a playlist</h2>
   <Form action="/create" method="post">
       <input type="text" name="name" placeholder="write playlist name here"/>

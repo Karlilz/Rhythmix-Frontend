@@ -1,7 +1,7 @@
 import { redirect } from "react-router-dom"
 
 // YOUR DEPLOYED API BASE URL
-const URL = "https://xxxxxxx.onrender.com"
+const URL = 'https://rhythmix-app-backend.onrender.com'
 
 //createAction => create a todo from form submissions to `/create`
 export const createAction = async ({request}) => {
