@@ -1,5 +1,5 @@
 // YOUR DEPLOYED API BASE URL
-const URL = 'https://rhythmix-app-backend.onrender.com'
+const URL = 'RENDER URL'
 
 //indexLoader => 
 export const indexLoader = async () => {
