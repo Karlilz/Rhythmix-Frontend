@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Post = ({ post }) => {
 
   return (
-    <div style={div}>
+    <div>
       <Link to={`/post/${post.id}`}>
         <h1>{post.name}</h1>
       </Link>
