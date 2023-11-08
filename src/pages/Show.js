@@ -25,31 +25,31 @@ const Show = () => {
             type="text"
             name="name"
             placeholder="Song Name"
-            defaultValue={post.subject}
+            defaultValue={post.name}
           />
           <input
             type="text"
             name="song1"
             placeholder="Song 1"
-            defaultValue={post.details}
+            defaultValue={post.song1}
           />
           <input
             type="text"
             name="song2"
             placeholder="Song 2"
-            defaultValue={post.sides}
+            defaultValue={post.song2}
           />
           <input
             type="text"
             name="song3"
             placeholder="Song 3"
-            defaultValue={post.substitutions}
+            defaultValue={post.song3}
           />
            <input
             type="text"
             name="song4"
             placeholder="Song 4"
-            defaultValue={post.details}
+            defaultValue={post.song4}
           />
           <button>Update Playlist</button>
         </Form>
